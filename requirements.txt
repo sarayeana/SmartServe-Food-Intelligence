@@ -1,0 +1,40 @@
+# Core Data Processing
+
+pandas
+numpy
+
+# Data Visualization
+
+matplotlib
+seaborn
+
+# Machine Learning
+
+scikit-learn
+xgboost
+
+# Jupyter Notebooks
+
+jupyter
+ipykernel
+
+# Configuration
+
+PyYAML
+
+# Database
+
+SQLAlchemy
+mysql-connector-python
+
+# Excel
+
+openpyxl
+
+# Testing
+
+pytest
+
+# Model Persistence
+
+joblib
