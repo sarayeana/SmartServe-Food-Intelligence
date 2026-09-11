@@ -1,0 +1,83 @@
+
+
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Python build files
+
+build/
+dist/
+*.egg-info/
+
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+
+# Testing and coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# Environment variables
+
+.env
+.env.*
+
+
+# IDE and editor files
+
+.vscode/
+.idea/
+
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Logs
+
+logs/
+*.log
+
+
+# Model artifacts
+
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.h5
+models/**/*.keras
+
+
+# Power BI temporary files
+
+*.pbix.tmp
+
+
+# Excel temporary files
+
+~$*.xlsx
+~$*.xls
+
+
+# Large generated data files
+
+data/raw/*.parquet
+data/processed/*.parquet
+data/ml/*.parquet
