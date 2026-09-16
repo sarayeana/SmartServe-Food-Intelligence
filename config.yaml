@@ -1,44 +1,43 @@
 project:
-name: SmartServe Food Intelligence
-version: 1.0.0
+  name: SmartServe Food Intelligence
+  version: 1.0.0
 
 paths:
-data_raw: data/raw
-data_processed: data/processed
-data_ml: data/ml
+  data_raw: data/raw
+  data_processed: data/processed
+  data_ml: data/ml
 
-models: models
-demand_models: models/demand
-waste_models: models/waste
+  models: models
+  demand_models: models/demand
+  waste_models: models/waste
 
-notebooks: notebooks
-sql: sql
-excel: excel
-powerbi: powerbi
+  notebooks: notebooks
+  sql: sql
+  excel: excel
+  powerbi: powerbi
 
-documentation: documentation
-reports: reports
+  documentation: documentation
+  reports: reports
 
 data_generation:
-prototype:
-start_date: "2025-01-01"
-end_date: "2025-03-31"
-stores: 5
-products: 20
-customers: 1000
+  prototype:
+    start_date: "2025-01-01"
+    end_date: "2025-03-31"
+    stores: 5
+    products: 20
+    customers: 1000
 
-final:
-start_date: "2022-01-01"
-end_date: "2026-12-31"
-stores: 15
-products: 80
-customers: 50000
+  final:
+    start_date: "2022-01-01"
+    end_date: "2026-12-31"
+    stores: 15
+    products: 80
+    customers: 50000
 
 database:
-host: localhost
-port: 3306
-database: smartserve
-user: root
+  host: localhost
+  port: 3306
+  database: smartserve
+  user: root
 
 random_seed: 42
-
