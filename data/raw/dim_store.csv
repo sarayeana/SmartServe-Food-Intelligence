@@ -1,0 +1,6 @@
+store_id,store_name,city,area,store_type,opening_date,seating_capacity,average_daily_customers,manager_region
+ST001,SmartServe Dhaka 1,Dhaka,Downtown,Flagship,2022-01-01,40,180,Central
+ST002,SmartServe Chattogram 2,Chattogram,Shopping Mall,Standard,2022-01-01,50,220,East
+ST003,SmartServe Sylhet 3,Sylhet,University Area,Express,2022-01-01,60,260,North
+ST004,SmartServe Rajshahi 4,Rajshahi,Business District,Flagship,2022-01-01,70,300,South
+ST005,SmartServe Khulna 5,Khulna,Residential Area,Standard,2022-01-01,80,350,West
