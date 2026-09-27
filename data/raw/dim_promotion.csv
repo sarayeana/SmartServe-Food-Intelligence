@@ -1,0 +1,9 @@
+promotion_id,promotion_name,promotion_type,discount_percent,start_date,end_date,target_category
+PROMO001,Morning Coffee Deal,Time-Based,10,2025-01-01,2025-01-31,Beverage
+PROMO002,Weekend Special,Weekend,15,2025-01-10,2025-02-28,Food
+PROMO003,Sweet Treats,Category,20,2025-01-15,2025-02-15,Dessert
+PROMO004,Valentine Special,Seasonal,25,2025-02-10,2025-02-16,Dessert
+PROMO005,Ramadan Beverage Offer,Seasonal,15,2025-03-01,2025-03-31,Beverage
+PROMO006,Lunch Combo,Combo,12,2025-02-01,2025-03-15,Food
+PROMO007,New Customer Offer,Customer,10,2025-01-01,2025-03-31,All
+PROMO008,Evening Snack Deal,Time-Based,15,2025-02-15,2025-03-31,Food
