@@ -1,0 +1,21 @@
+product_id,product_name,category,subcategory,size,unit_cost,selling_price,shelf_life_hours,preparation_time,active_flag
+PRD001,Americano,Beverage,Coffee,Regular,45,120,4,3,True
+PRD002,Cappuccino,Beverage,Coffee,Regular,65,160,4,5,True
+PRD003,Latte,Beverage,Coffee,Regular,70,170,4,5,True
+PRD004,Mocha,Beverage,Coffee,Regular,80,190,4,6,True
+PRD005,Espresso,Beverage,Coffee,Small,35,100,4,2,True
+PRD006,Iced Coffee,Beverage,Cold Drinks,Regular,70,180,6,4,True
+PRD007,Iced Latte,Beverage,Cold Drinks,Regular,80,200,6,5,True
+PRD008,Lemonade,Beverage,Cold Drinks,Regular,55,150,8,3,True
+PRD009,Mango Smoothie,Beverage,Smoothie,Regular,95,220,6,6,True
+PRD010,Chocolate Shake,Beverage,Shake,Regular,100,230,6,6,True
+PRD011,Chicken Sandwich,Food,Sandwich,Regular,140,280,12,8,True
+PRD012,Beef Burger,Food,Burger,Regular,180,350,12,10,True
+PRD013,Chicken Burger,Food,Burger,Regular,160,320,12,9,True
+PRD014,Veggie Sandwich,Food,Sandwich,Regular,110,240,12,7,True
+PRD015,French Fries,Food,Sides,Regular,65,160,10,5,True
+PRD016,Chocolate Cake,Dessert,Cake,Slice,95,220,24,3,True
+PRD017,Cheesecake,Dessert,Cake,Slice,110,250,24,3,True
+PRD018,Blueberry Muffin,Dessert,Bakery,Regular,60,150,24,2,True
+PRD019,Chocolate Cookie,Dessert,Bakery,Regular,35,100,48,2,True
+PRD020,Croissant,Dessert,Bakery,Regular,55,140,24,3,True
