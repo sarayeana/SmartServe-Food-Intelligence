@@ -1,0 +1,1001 @@
+customer_id,signup_date,customer_segment,age_group,loyalty_member,acquisition_channel
+CUS00001,2025-08-02,Regular,35-44,True,Social Media
+CUS00002,2022-07-29,Occasional,55+,True,Website
+CUS00003,2022-03-07,Regular,25-34,True,Mobile App
+CUS00004,2022-02-24,Occasional,55+,False,Website
+CUS00005,2025-04-21,Regular,18-24,False,Social Media
+CUS00006,2025-11-30,Regular,35-44,True,Referral
+CUS00007,2022-07-29,Regular,18-24,True,Referral
+CUS00008,2025-05-21,Regular,18-24,False,Mobile App
+CUS00009,2022-09-13,New,45-54,True,Referral
+CUS00010,2025-07-11,Occasional,35-44,False,Walk-in
+CUS00011,2022-04-04,Occasional,35-44,False,Social Media
+CUS00012,2022-07-26,Regular,45-54,False,Referral
+CUS00013,2022-11-30,Regular,25-34,False,Walk-in
+CUS00014,2025-06-01,Occasional,55+,False,Social Media
+CUS00015,2024-08-04,Regular,55+,True,Referral
+CUS00016,2022-04-25,Regular,18-24,False,Website
+CUS00017,2023-07-03,Regular,55+,False,Referral
+CUS00018,2023-03-12,Occasional,45-54,False,Website
+CUS00019,2022-10-20,Regular,25-34,False,Mobile App
+CUS00020,2023-06-23,Occasional,45-54,False,Website
+CUS00021,2024-01-12,Regular,25-34,False,Walk-in
+CUS00022,2022-04-07,Premium,25-34,False,Website
+CUS00023,2025-05-06,Regular,45-54,False,Website
+CUS00024,2024-12-19,Regular,55+,False,Walk-in
+CUS00025,2025-10-25,Occasional,55+,False,Referral
+CUS00026,2022-08-17,Regular,25-34,False,Referral
+CUS00027,2024-10-22,Premium,55+,False,Referral
+CUS00028,2025-08-01,Occasional,25-34,True,Social Media
+CUS00029,2025-01-09,New,55+,False,Mobile App
+CUS00030,2023-10-26,Occasional,18-24,False,Referral
+CUS00031,2023-05-06,Regular,55+,False,Walk-in
+CUS00032,2024-09-22,Premium,55+,False,Social Media
+CUS00033,2025-09-13,Occasional,55+,True,Mobile App
+CUS00034,2025-05-27,Regular,25-34,False,Social Media
+CUS00035,2025-12-31,Regular,35-44,False,Mobile App
+CUS00036,2024-07-13,Regular,25-34,True,Walk-in
+CUS00037,2025-04-19,Occasional,55+,True,Walk-in
+CUS00038,2025-12-20,Occasional,25-34,True,Walk-in
+CUS00039,2023-11-08,Regular,25-34,True,Website
+CUS00040,2023-03-15,Occasional,55+,False,Social Media
+CUS00041,2024-08-26,Premium,25-34,True,Website
+CUS00042,2023-12-27,Regular,45-54,False,Walk-in
+CUS00043,2025-10-11,Occasional,18-24,True,Referral
+CUS00044,2022-08-12,Regular,25-34,False,Social Media
+CUS00045,2024-05-14,Regular,45-54,True,Walk-in
+CUS00046,2024-06-26,Premium,55+,True,Mobile App
+CUS00047,2022-01-31,New,25-34,True,Website
+CUS00048,2024-09-12,Regular,45-54,False,Social Media
+CUS00049,2024-02-16,Regular,45-54,True,Website
+CUS00050,2023-08-08,Regular,55+,False,Website
+CUS00051,2022-11-14,Regular,25-34,False,Mobile App
+CUS00052,2025-01-15,Regular,35-44,True,Mobile App
+CUS00053,2024-09-03,Occasional,55+,True,Mobile App
+CUS00054,2022-06-14,Premium,18-24,False,Social Media
+CUS00055,2024-04-06,Regular,55+,True,Mobile App
+CUS00056,2022-03-23,Occasional,45-54,False,Mobile App
+CUS00057,2024-12-06,Regular,35-44,True,Referral
+CUS00058,2023-05-04,Regular,25-34,False,Referral
+CUS00059,2024-07-25,Regular,18-24,True,Mobile App
+CUS00060,2025-02-27,New,18-24,False,Mobile App
+CUS00061,2023-06-28,Regular,35-44,False,Social Media
+CUS00062,2024-01-27,Regular,45-54,False,Referral
+CUS00063,2025-06-06,New,55+,True,Mobile App
+CUS00064,2023-09-06,New,18-24,False,Social Media
+CUS00065,2023-06-26,Regular,18-24,False,Social Media
+CUS00066,2023-07-12,Regular,25-34,False,Social Media
+CUS00067,2025-11-08,Occasional,35-44,False,Referral
+CUS00068,2022-04-15,Regular,45-54,False,Walk-in
+CUS00069,2022-01-08,Regular,25-34,False,Referral
+CUS00070,2022-11-27,Occasional,55+,False,Mobile App
+CUS00071,2022-01-20,Regular,25-34,False,Referral
+CUS00072,2025-04-07,Occasional,45-54,True,Referral
+CUS00073,2024-01-17,Premium,18-24,False,Social Media
+CUS00074,2025-10-28,Regular,18-24,True,Mobile App
+CUS00075,2024-04-12,New,25-34,False,Social Media
+CUS00076,2022-11-29,New,25-34,False,Walk-in
+CUS00077,2023-01-03,Occasional,35-44,False,Website
+CUS00078,2025-10-03,Premium,25-34,True,Walk-in
+CUS00079,2024-02-23,Premium,45-54,True,Website
+CUS00080,2023-12-18,Regular,25-34,True,Social Media
+CUS00081,2024-03-27,Regular,18-24,False,Referral
+CUS00082,2023-12-21,Occasional,45-54,False,Mobile App
+CUS00083,2023-11-10,New,18-24,False,Referral
+CUS00084,2023-01-01,Occasional,35-44,True,Mobile App
+CUS00085,2024-06-08,Regular,35-44,False,Mobile App
+CUS00086,2022-08-25,Regular,55+,True,Walk-in
+CUS00087,2025-12-22,Regular,55+,False,Mobile App
+CUS00088,2025-11-07,Occasional,25-34,True,Walk-in
+CUS00089,2025-09-22,New,55+,True,Walk-in
+CUS00090,2023-09-08,Occasional,45-54,True,Referral
+CUS00091,2025-02-09,Regular,45-54,False,Website
+CUS00092,2025-10-19,Occasional,25-34,False,Referral
+CUS00093,2024-04-11,Occasional,18-24,True,Social Media
+CUS00094,2024-05-30,Premium,55+,False,Website
+CUS00095,2024-06-23,Regular,25-34,False,Social Media
+CUS00096,2025-09-11,Regular,55+,False,Mobile App
+CUS00097,2023-11-18,Regular,25-34,False,Social Media
+CUS00098,2023-02-12,Regular,18-24,True,Website
+CUS00099,2025-06-05,Premium,18-24,False,Mobile App
+CUS00100,2023-02-03,Occasional,45-54,False,Social Media
+CUS00101,2022-10-30,Occasional,18-24,False,Walk-in
+CUS00102,2024-05-20,Regular,55+,False,Mobile App
+CUS00103,2023-05-26,New,18-24,False,Website
+CUS00104,2025-09-29,Occasional,55+,False,Website
+CUS00105,2025-06-08,Premium,55+,False,Mobile App
+CUS00106,2024-07-02,Premium,45-54,False,Social Media
+CUS00107,2025-07-29,Regular,55+,False,Social Media
+CUS00108,2023-07-17,Regular,35-44,True,Referral
+CUS00109,2023-10-17,Premium,18-24,True,Social Media
+CUS00110,2024-02-24,Occasional,25-34,True,Website
+CUS00111,2023-11-09,Occasional,45-54,True,Website
+CUS00112,2024-03-08,New,55+,False,Walk-in
+CUS00113,2025-03-25,Regular,18-24,False,Referral
+CUS00114,2024-03-09,Premium,45-54,False,Mobile App
+CUS00115,2025-05-20,Premium,45-54,True,Website
+CUS00116,2024-09-21,Regular,35-44,False,Website
+CUS00117,2022-12-05,Premium,25-34,False,Mobile App
+CUS00118,2022-02-25,New,55+,False,Walk-in
+CUS00119,2022-06-21,Occasional,25-34,False,Social Media
+CUS00120,2022-04-13,Regular,35-44,True,Referral
+CUS00121,2023-11-23,Premium,45-54,True,Website
+CUS00122,2023-06-01,Premium,45-54,True,Mobile App
+CUS00123,2022-04-17,New,35-44,True,Walk-in
+CUS00124,2025-08-27,Regular,18-24,False,Social Media
+CUS00125,2022-02-11,Occasional,25-34,True,Walk-in
+CUS00126,2025-03-01,New,45-54,False,Referral
+CUS00127,2022-12-10,Occasional,18-24,False,Social Media
+CUS00128,2023-09-30,Regular,18-24,False,Mobile App
+CUS00129,2025-10-19,New,45-54,True,Social Media
+CUS00130,2022-06-05,Occasional,25-34,True,Referral
+CUS00131,2025-11-02,Occasional,18-24,False,Mobile App
+CUS00132,2022-03-26,Regular,45-54,False,Walk-in
+CUS00133,2024-11-02,Occasional,18-24,False,Website
+CUS00134,2022-08-05,Regular,35-44,False,Website
+CUS00135,2025-12-19,Regular,25-34,False,Referral
+CUS00136,2025-06-15,Premium,55+,False,Website
+CUS00137,2024-06-11,Premium,55+,True,Social Media
+CUS00138,2022-06-27,Regular,45-54,True,Website
+CUS00139,2025-03-13,Occasional,45-54,True,Website
+CUS00140,2023-10-28,Regular,25-34,True,Referral
+CUS00141,2023-11-29,Regular,55+,False,Referral
+CUS00142,2025-02-12,Regular,25-34,True,Website
+CUS00143,2024-09-27,Occasional,25-34,False,Website
+CUS00144,2024-07-06,Premium,18-24,True,Website
+CUS00145,2025-11-17,Regular,55+,True,Mobile App
+CUS00146,2024-12-23,Regular,55+,True,Website
+CUS00147,2023-07-09,Regular,25-34,True,Social Media
+CUS00148,2023-10-09,Regular,55+,False,Social Media
+CUS00149,2023-01-28,Regular,45-54,True,Mobile App
+CUS00150,2024-12-10,Occasional,18-24,False,Referral
+CUS00151,2023-04-11,Regular,35-44,True,Mobile App
+CUS00152,2022-09-17,Regular,18-24,False,Social Media
+CUS00153,2025-07-30,Premium,45-54,True,Walk-in
+CUS00154,2025-03-21,Regular,45-54,False,Social Media
+CUS00155,2022-04-16,Regular,45-54,True,Walk-in
+CUS00156,2024-03-31,Occasional,55+,False,Walk-in
+CUS00157,2022-11-07,Regular,55+,False,Walk-in
+CUS00158,2023-05-24,Regular,45-54,False,Mobile App
+CUS00159,2023-04-08,Premium,45-54,False,Website
+CUS00160,2023-09-01,Premium,45-54,True,Mobile App
+CUS00161,2022-05-04,Occasional,18-24,False,Social Media
+CUS00162,2025-07-05,Regular,18-24,True,Social Media
+CUS00163,2025-02-04,Regular,18-24,False,Mobile App
+CUS00164,2024-08-20,Regular,25-34,True,Referral
+CUS00165,2025-12-10,Premium,18-24,False,Referral
+CUS00166,2025-07-04,Occasional,25-34,False,Mobile App
+CUS00167,2023-04-06,Occasional,35-44,False,Walk-in
+CUS00168,2022-05-03,Regular,35-44,False,Mobile App
+CUS00169,2023-08-15,Regular,45-54,False,Website
+CUS00170,2023-07-12,Occasional,45-54,False,Mobile App
+CUS00171,2022-03-23,Premium,35-44,False,Walk-in
+CUS00172,2022-07-07,Regular,55+,False,Walk-in
+CUS00173,2025-10-08,Premium,55+,True,Social Media
+CUS00174,2024-08-21,Occasional,45-54,False,Social Media
+CUS00175,2025-04-13,Regular,45-54,False,Website
+CUS00176,2023-12-14,Regular,35-44,False,Social Media
+CUS00177,2023-11-07,Regular,45-54,True,Website
+CUS00178,2025-01-31,Regular,18-24,True,Referral
+CUS00179,2022-08-26,New,45-54,False,Walk-in
+CUS00180,2025-09-08,Premium,45-54,False,Social Media
+CUS00181,2024-11-27,Regular,45-54,False,Walk-in
+CUS00182,2023-02-21,Regular,25-34,False,Website
+CUS00183,2025-12-01,Occasional,18-24,False,Mobile App
+CUS00184,2023-05-06,Occasional,35-44,False,Mobile App
+CUS00185,2024-04-15,Regular,18-24,False,Walk-in
+CUS00186,2025-08-19,Premium,45-54,False,Referral
+CUS00187,2024-11-08,Occasional,45-54,False,Website
+CUS00188,2023-05-15,Occasional,25-34,True,Mobile App
+CUS00189,2024-11-06,Occasional,25-34,False,Referral
+CUS00190,2024-04-29,Regular,55+,True,Walk-in
+CUS00191,2023-08-03,Occasional,55+,False,Website
+CUS00192,2022-11-01,Regular,45-54,True,Mobile App
+CUS00193,2025-01-17,Regular,35-44,False,Social Media
+CUS00194,2025-03-17,Regular,45-54,True,Website
+CUS00195,2025-12-15,New,45-54,True,Social Media
+CUS00196,2024-10-11,New,25-34,False,Mobile App
+CUS00197,2023-11-11,Premium,45-54,True,Website
+CUS00198,2022-02-01,Occasional,45-54,False,Social Media
+CUS00199,2022-06-03,Occasional,35-44,True,Website
+CUS00200,2025-08-23,Regular,35-44,False,Mobile App
+CUS00201,2024-02-18,New,45-54,False,Walk-in
+CUS00202,2025-06-18,Regular,35-44,False,Walk-in
+CUS00203,2024-06-07,New,18-24,False,Referral
+CUS00204,2022-03-01,Regular,18-24,True,Referral
+CUS00205,2024-06-01,Regular,55+,False,Social Media
+CUS00206,2022-12-15,Regular,55+,False,Mobile App
+CUS00207,2025-10-31,Regular,55+,True,Website
+CUS00208,2025-07-30,Regular,35-44,False,Website
+CUS00209,2023-08-13,Occasional,25-34,True,Referral
+CUS00210,2025-04-18,Regular,45-54,False,Website
+CUS00211,2023-09-11,Regular,45-54,False,Walk-in
+CUS00212,2023-05-01,Regular,35-44,False,Referral
+CUS00213,2022-02-14,New,45-54,True,Mobile App
+CUS00214,2025-11-05,Premium,18-24,False,Website
+CUS00215,2023-08-10,Premium,25-34,False,Referral
+CUS00216,2023-03-25,Occasional,55+,True,Social Media
+CUS00217,2025-07-10,Regular,18-24,True,Website
+CUS00218,2022-03-10,Occasional,25-34,True,Referral
+CUS00219,2023-11-01,Occasional,25-34,True,Mobile App
+CUS00220,2024-01-20,Occasional,35-44,False,Referral
+CUS00221,2024-09-13,New,35-44,False,Referral
+CUS00222,2022-08-24,Occasional,18-24,True,Social Media
+CUS00223,2025-10-17,Occasional,45-54,False,Mobile App
+CUS00224,2024-01-20,Regular,45-54,True,Mobile App
+CUS00225,2022-09-11,Occasional,35-44,False,Referral
+CUS00226,2022-08-10,Occasional,45-54,True,Mobile App
+CUS00227,2023-11-03,New,25-34,False,Website
+CUS00228,2025-12-06,Regular,45-54,True,Walk-in
+CUS00229,2022-03-18,Regular,45-54,True,Social Media
+CUS00230,2025-01-05,Regular,45-54,True,Mobile App
+CUS00231,2024-05-08,Occasional,25-34,False,Walk-in
+CUS00232,2024-09-29,Occasional,35-44,True,Referral
+CUS00233,2023-03-21,Regular,25-34,False,Walk-in
+CUS00234,2025-11-05,Regular,35-44,True,Referral
+CUS00235,2023-01-24,New,45-54,True,Social Media
+CUS00236,2025-08-07,Occasional,18-24,True,Referral
+CUS00237,2023-05-14,New,55+,True,Mobile App
+CUS00238,2023-03-01,Occasional,25-34,True,Social Media
+CUS00239,2025-05-05,Regular,25-34,False,Mobile App
+CUS00240,2023-05-29,Premium,18-24,False,Walk-in
+CUS00241,2022-09-27,Regular,25-34,False,Walk-in
+CUS00242,2022-12-23,Regular,25-34,False,Mobile App
+CUS00243,2022-08-21,Occasional,45-54,False,Referral
+CUS00244,2024-11-17,Occasional,45-54,False,Mobile App
+CUS00245,2022-03-30,Occasional,55+,True,Walk-in
+CUS00246,2022-05-05,New,45-54,False,Walk-in
+CUS00247,2024-10-01,Occasional,45-54,True,Walk-in
+CUS00248,2023-10-22,Occasional,18-24,True,Mobile App
+CUS00249,2025-07-20,Occasional,35-44,True,Mobile App
+CUS00250,2024-12-22,Regular,55+,False,Walk-in
+CUS00251,2025-12-08,Regular,55+,False,Social Media
+CUS00252,2024-05-30,Occasional,25-34,False,Website
+CUS00253,2024-03-27,Regular,18-24,True,Referral
+CUS00254,2025-09-24,Regular,25-34,False,Website
+CUS00255,2022-05-18,Regular,18-24,True,Walk-in
+CUS00256,2024-02-03,Premium,55+,True,Mobile App
+CUS00257,2025-02-24,Regular,18-24,False,Website
+CUS00258,2022-04-16,New,55+,True,Walk-in
+CUS00259,2025-03-29,Occasional,25-34,False,Social Media
+CUS00260,2022-08-10,Regular,55+,True,Referral
+CUS00261,2025-03-21,Regular,45-54,False,Mobile App
+CUS00262,2025-06-10,Occasional,55+,True,Referral
+CUS00263,2022-03-01,Regular,35-44,False,Referral
+CUS00264,2022-01-13,Regular,25-34,False,Website
+CUS00265,2022-05-23,Regular,18-24,True,Mobile App
+CUS00266,2023-03-17,Regular,45-54,True,Referral
+CUS00267,2023-10-01,Occasional,55+,False,Walk-in
+CUS00268,2022-11-15,Regular,55+,True,Walk-in
+CUS00269,2023-07-12,Regular,45-54,False,Website
+CUS00270,2024-04-28,Regular,55+,True,Website
+CUS00271,2022-08-16,Regular,55+,False,Referral
+CUS00272,2022-04-04,Regular,55+,True,Social Media
+CUS00273,2023-09-10,New,25-34,False,Referral
+CUS00274,2023-11-03,Regular,45-54,False,Social Media
+CUS00275,2022-09-22,Regular,25-34,False,Referral
+CUS00276,2022-05-28,Regular,18-24,False,Website
+CUS00277,2022-06-09,Premium,55+,False,Website
+CUS00278,2025-12-24,Occasional,35-44,True,Walk-in
+CUS00279,2023-10-28,Regular,55+,False,Referral
+CUS00280,2022-06-30,Regular,18-24,True,Mobile App
+CUS00281,2024-03-31,Occasional,45-54,False,Referral
+CUS00282,2023-03-30,Regular,25-34,True,Walk-in
+CUS00283,2024-12-22,Occasional,35-44,True,Social Media
+CUS00284,2023-04-29,Regular,35-44,True,Mobile App
+CUS00285,2022-11-10,Premium,18-24,True,Website
+CUS00286,2024-08-08,Premium,55+,False,Mobile App
+CUS00287,2025-08-09,Occasional,55+,True,Referral
+CUS00288,2022-11-06,Regular,45-54,False,Referral
+CUS00289,2023-07-17,Occasional,35-44,False,Referral
+CUS00290,2024-08-03,Occasional,18-24,True,Referral
+CUS00291,2022-06-07,Occasional,18-24,False,Mobile App
+CUS00292,2024-02-27,Occasional,55+,False,Walk-in
+CUS00293,2024-07-10,New,55+,False,Referral
+CUS00294,2025-05-24,Occasional,25-34,False,Website
+CUS00295,2022-07-31,Premium,35-44,False,Walk-in
+CUS00296,2024-10-30,Occasional,18-24,True,Website
+CUS00297,2024-06-18,Occasional,55+,True,Referral
+CUS00298,2023-08-03,Regular,35-44,False,Walk-in
+CUS00299,2025-07-16,Occasional,18-24,True,Mobile App
+CUS00300,2025-10-21,Regular,35-44,False,Mobile App
+CUS00301,2022-11-04,Regular,55+,False,Referral
+CUS00302,2023-09-28,New,45-54,True,Walk-in
+CUS00303,2023-09-27,Occasional,35-44,False,Mobile App
+CUS00304,2022-07-11,Occasional,45-54,False,Walk-in
+CUS00305,2024-01-13,Regular,25-34,True,Website
+CUS00306,2023-01-29,Regular,25-34,True,Referral
+CUS00307,2022-07-27,Occasional,55+,False,Mobile App
+CUS00308,2022-03-19,Occasional,55+,True,Website
+CUS00309,2022-11-12,Regular,55+,False,Social Media
+CUS00310,2024-06-15,Regular,35-44,False,Social Media
+CUS00311,2024-06-28,Occasional,45-54,True,Social Media
+CUS00312,2023-09-26,New,45-54,False,Social Media
+CUS00313,2024-01-24,Occasional,55+,False,Website
+CUS00314,2023-08-01,Premium,55+,False,Social Media
+CUS00315,2023-02-13,Premium,25-34,False,Walk-in
+CUS00316,2025-08-06,Occasional,35-44,False,Walk-in
+CUS00317,2025-12-27,Premium,18-24,True,Social Media
+CUS00318,2023-07-13,Regular,55+,True,Website
+CUS00319,2022-07-07,New,25-34,False,Referral
+CUS00320,2022-02-24,Regular,45-54,False,Social Media
+CUS00321,2024-03-01,New,35-44,True,Referral
+CUS00322,2022-07-22,Premium,35-44,False,Social Media
+CUS00323,2022-03-20,Regular,45-54,False,Social Media
+CUS00324,2025-12-15,Occasional,55+,True,Walk-in
+CUS00325,2022-02-08,Regular,25-34,False,Mobile App
+CUS00326,2024-12-16,Regular,35-44,True,Walk-in
+CUS00327,2022-04-08,Regular,55+,False,Walk-in
+CUS00328,2024-10-20,Occasional,18-24,False,Mobile App
+CUS00329,2023-05-11,Occasional,35-44,False,Mobile App
+CUS00330,2023-12-24,Regular,45-54,True,Walk-in
+CUS00331,2024-12-08,New,18-24,False,Mobile App
+CUS00332,2024-11-05,Premium,55+,False,Website
+CUS00333,2024-08-20,Regular,45-54,False,Referral
+CUS00334,2022-02-03,Regular,18-24,True,Walk-in
+CUS00335,2025-04-06,Occasional,35-44,True,Referral
+CUS00336,2025-01-23,Regular,25-34,False,Website
+CUS00337,2025-11-25,Occasional,25-34,False,Walk-in
+CUS00338,2024-07-26,Regular,25-34,True,Social Media
+CUS00339,2022-03-27,Regular,35-44,False,Mobile App
+CUS00340,2024-08-27,Regular,25-34,True,Walk-in
+CUS00341,2025-09-04,Regular,18-24,False,Website
+CUS00342,2024-03-30,Occasional,45-54,True,Social Media
+CUS00343,2024-10-13,Occasional,35-44,False,Mobile App
+CUS00344,2023-07-01,Premium,45-54,True,Mobile App
+CUS00345,2023-01-05,Occasional,35-44,True,Referral
+CUS00346,2025-09-15,Regular,45-54,False,Website
+CUS00347,2022-12-08,Occasional,35-44,False,Referral
+CUS00348,2025-06-13,New,35-44,False,Walk-in
+CUS00349,2022-06-03,Occasional,45-54,True,Social Media
+CUS00350,2022-03-05,Regular,55+,False,Website
+CUS00351,2022-03-13,Regular,25-34,False,Referral
+CUS00352,2024-01-12,Regular,55+,True,Social Media
+CUS00353,2025-10-22,Regular,35-44,True,Walk-in
+CUS00354,2025-03-21,Regular,35-44,True,Referral
+CUS00355,2023-05-27,New,18-24,False,Website
+CUS00356,2024-11-26,Regular,55+,True,Referral
+CUS00357,2025-12-12,Regular,55+,True,Website
+CUS00358,2023-02-14,Regular,18-24,False,Website
+CUS00359,2022-06-29,Premium,35-44,False,Walk-in
+CUS00360,2025-01-31,Occasional,35-44,False,Social Media
+CUS00361,2024-01-11,Occasional,18-24,False,Social Media
+CUS00362,2023-04-30,Premium,18-24,True,Mobile App
+CUS00363,2024-01-26,Occasional,55+,True,Walk-in
+CUS00364,2022-05-15,Regular,45-54,False,Website
+CUS00365,2025-03-23,Regular,35-44,False,Website
+CUS00366,2024-08-12,Occasional,35-44,True,Mobile App
+CUS00367,2025-08-03,Occasional,25-34,False,Walk-in
+CUS00368,2022-09-12,Occasional,35-44,True,Referral
+CUS00369,2025-12-23,Regular,55+,False,Walk-in
+CUS00370,2023-05-29,Regular,55+,True,Referral
+CUS00371,2025-06-12,Occasional,55+,False,Mobile App
+CUS00372,2025-04-04,Regular,55+,False,Mobile App
+CUS00373,2023-11-23,Premium,55+,True,Walk-in
+CUS00374,2022-06-16,Regular,55+,True,Social Media
+CUS00375,2025-03-17,Regular,18-24,False,Mobile App
+CUS00376,2023-08-17,Occasional,35-44,False,Website
+CUS00377,2023-09-02,Occasional,18-24,True,Website
+CUS00378,2024-09-18,Occasional,35-44,False,Referral
+CUS00379,2023-10-16,Occasional,35-44,False,Social Media
+CUS00380,2024-01-29,Occasional,18-24,True,Website
+CUS00381,2022-09-08,Regular,25-34,True,Walk-in
+CUS00382,2023-08-18,New,55+,False,Social Media
+CUS00383,2023-11-02,New,35-44,True,Social Media
+CUS00384,2024-10-17,New,45-54,False,Referral
+CUS00385,2024-10-15,Regular,45-54,False,Social Media
+CUS00386,2023-03-17,Occasional,18-24,True,Website
+CUS00387,2025-05-08,Premium,45-54,True,Walk-in
+CUS00388,2022-08-09,Regular,35-44,False,Website
+CUS00389,2024-01-20,Regular,18-24,False,Social Media
+CUS00390,2024-01-13,Occasional,18-24,True,Website
+CUS00391,2025-01-31,Regular,55+,False,Walk-in
+CUS00392,2022-09-21,New,45-54,True,Referral
+CUS00393,2025-02-16,New,25-34,True,Mobile App
+CUS00394,2024-04-02,Occasional,18-24,True,Referral
+CUS00395,2024-08-28,Occasional,25-34,False,Mobile App
+CUS00396,2022-10-14,Regular,55+,True,Website
+CUS00397,2025-06-16,Occasional,35-44,False,Mobile App
+CUS00398,2024-11-09,Occasional,55+,True,Walk-in
+CUS00399,2024-01-25,Regular,18-24,False,Mobile App
+CUS00400,2023-09-23,Premium,18-24,False,Referral
+CUS00401,2025-09-04,Premium,55+,False,Walk-in
+CUS00402,2025-04-10,Occasional,55+,False,Mobile App
+CUS00403,2024-02-18,Regular,25-34,True,Walk-in
+CUS00404,2023-01-26,Regular,35-44,False,Website
+CUS00405,2025-11-15,Regular,55+,False,Website
+CUS00406,2022-05-08,Occasional,55+,True,Referral
+CUS00407,2025-09-18,Occasional,45-54,True,Social Media
+CUS00408,2024-07-30,New,35-44,False,Referral
+CUS00409,2025-06-03,Occasional,25-34,True,Referral
+CUS00410,2023-04-06,New,35-44,False,Social Media
+CUS00411,2025-11-14,Occasional,35-44,False,Mobile App
+CUS00412,2023-07-15,Regular,55+,False,Website
+CUS00413,2024-03-19,Premium,25-34,True,Referral
+CUS00414,2022-06-11,Regular,45-54,False,Website
+CUS00415,2023-03-15,Regular,55+,True,Mobile App
+CUS00416,2025-11-26,Regular,18-24,False,Mobile App
+CUS00417,2023-05-06,Regular,55+,True,Social Media
+CUS00418,2022-04-18,Regular,35-44,False,Walk-in
+CUS00419,2025-10-27,Premium,18-24,False,Social Media
+CUS00420,2024-04-13,Occasional,45-54,False,Social Media
+CUS00421,2023-08-12,Regular,18-24,False,Walk-in
+CUS00422,2025-08-28,Occasional,55+,False,Walk-in
+CUS00423,2022-12-25,Regular,25-34,False,Walk-in
+CUS00424,2024-03-24,Premium,25-34,False,Referral
+CUS00425,2022-03-18,Regular,55+,False,Referral
+CUS00426,2023-08-06,Occasional,55+,False,Social Media
+CUS00427,2024-10-29,Occasional,25-34,False,Referral
+CUS00428,2022-11-29,Occasional,35-44,False,Walk-in
+CUS00429,2023-11-22,Premium,55+,False,Social Media
+CUS00430,2022-12-26,Occasional,45-54,False,Mobile App
+CUS00431,2023-11-03,Regular,18-24,True,Social Media
+CUS00432,2024-09-04,Regular,25-34,True,Website
+CUS00433,2023-04-28,Regular,35-44,False,Referral
+CUS00434,2025-04-07,Occasional,18-24,True,Referral
+CUS00435,2025-11-19,Regular,18-24,False,Social Media
+CUS00436,2024-04-10,Occasional,35-44,False,Referral
+CUS00437,2024-01-23,Occasional,25-34,False,Website
+CUS00438,2022-11-10,Occasional,55+,True,Mobile App
+CUS00439,2024-08-22,Premium,25-34,False,Mobile App
+CUS00440,2022-06-17,Occasional,55+,False,Walk-in
+CUS00441,2025-03-01,Regular,55+,False,Social Media
+CUS00442,2025-03-18,Occasional,25-34,True,Mobile App
+CUS00443,2024-06-23,Regular,25-34,False,Website
+CUS00444,2022-07-06,Premium,45-54,False,Website
+CUS00445,2022-09-28,Occasional,45-54,False,Mobile App
+CUS00446,2024-08-04,Occasional,35-44,False,Website
+CUS00447,2023-06-06,Premium,25-34,False,Walk-in
+CUS00448,2024-05-17,Regular,18-24,False,Walk-in
+CUS00449,2022-05-22,New,45-54,True,Website
+CUS00450,2023-01-04,Premium,45-54,True,Website
+CUS00451,2024-07-07,Premium,45-54,True,Mobile App
+CUS00452,2022-09-30,Occasional,35-44,True,Mobile App
+CUS00453,2024-03-15,Occasional,25-34,False,Walk-in
+CUS00454,2023-09-04,Occasional,55+,False,Website
+CUS00455,2023-04-16,Regular,35-44,True,Social Media
+CUS00456,2022-08-20,Regular,45-54,False,Walk-in
+CUS00457,2023-05-08,Regular,18-24,False,Website
+CUS00458,2025-05-09,Occasional,18-24,True,Walk-in
+CUS00459,2024-04-03,Regular,55+,True,Walk-in
+CUS00460,2022-10-14,Occasional,35-44,True,Mobile App
+CUS00461,2023-10-16,Occasional,35-44,True,Social Media
+CUS00462,2025-09-14,Occasional,45-54,True,Walk-in
+CUS00463,2025-02-14,New,25-34,False,Website
+CUS00464,2025-02-12,Occasional,35-44,False,Website
+CUS00465,2024-12-10,Regular,45-54,False,Referral
+CUS00466,2024-02-10,Regular,55+,False,Social Media
+CUS00467,2023-09-08,Premium,25-34,False,Walk-in
+CUS00468,2025-02-25,Regular,45-54,False,Social Media
+CUS00469,2024-03-06,Regular,25-34,True,Walk-in
+CUS00470,2024-07-10,Premium,18-24,False,Social Media
+CUS00471,2022-04-16,Regular,55+,False,Walk-in
+CUS00472,2023-01-21,Premium,55+,False,Mobile App
+CUS00473,2023-03-21,Occasional,35-44,True,Walk-in
+CUS00474,2023-03-10,New,18-24,False,Website
+CUS00475,2023-05-12,Occasional,25-34,True,Social Media
+CUS00476,2025-02-04,Regular,35-44,True,Mobile App
+CUS00477,2025-08-21,Regular,35-44,True,Website
+CUS00478,2024-08-12,Regular,45-54,False,Referral
+CUS00479,2023-02-21,Regular,45-54,True,Social Media
+CUS00480,2022-10-26,Regular,55+,False,Mobile App
+CUS00481,2024-05-05,Regular,25-34,True,Website
+CUS00482,2025-03-12,Premium,45-54,False,Referral
+CUS00483,2023-06-12,Premium,45-54,False,Website
+CUS00484,2024-08-01,Regular,35-44,True,Mobile App
+CUS00485,2024-09-27,Regular,55+,False,Walk-in
+CUS00486,2024-12-09,Regular,18-24,False,Walk-in
+CUS00487,2022-01-14,Regular,25-34,True,Social Media
+CUS00488,2022-01-19,Regular,45-54,True,Mobile App
+CUS00489,2025-07-30,Occasional,55+,False,Website
+CUS00490,2022-02-02,Regular,55+,False,Walk-in
+CUS00491,2024-12-20,Occasional,55+,False,Walk-in
+CUS00492,2024-10-25,Premium,45-54,False,Social Media
+CUS00493,2022-08-08,New,55+,True,Social Media
+CUS00494,2025-06-23,Occasional,35-44,True,Website
+CUS00495,2022-06-11,Regular,45-54,False,Social Media
+CUS00496,2025-11-28,Regular,18-24,False,Walk-in
+CUS00497,2022-07-11,Regular,45-54,False,Walk-in
+CUS00498,2025-07-28,Regular,25-34,True,Website
+CUS00499,2025-08-13,Premium,55+,False,Walk-in
+CUS00500,2024-12-17,New,25-34,True,Mobile App
+CUS00501,2024-08-31,Regular,18-24,False,Referral
+CUS00502,2025-01-17,Occasional,18-24,True,Referral
+CUS00503,2022-02-02,New,55+,True,Website
+CUS00504,2022-06-07,Regular,55+,True,Website
+CUS00505,2025-10-18,Premium,35-44,True,Social Media
+CUS00506,2025-11-12,Occasional,55+,False,Referral
+CUS00507,2022-04-20,Regular,25-34,False,Referral
+CUS00508,2025-05-24,Premium,55+,True,Referral
+CUS00509,2022-03-02,Occasional,45-54,False,Referral
+CUS00510,2025-02-06,New,45-54,True,Mobile App
+CUS00511,2025-09-15,Regular,55+,True,Social Media
+CUS00512,2025-12-31,Regular,35-44,True,Social Media
+CUS00513,2024-03-08,Regular,18-24,True,Referral
+CUS00514,2024-06-29,Regular,35-44,True,Walk-in
+CUS00515,2023-01-19,Regular,55+,False,Website
+CUS00516,2022-07-31,Regular,35-44,False,Mobile App
+CUS00517,2025-05-09,Premium,45-54,True,Website
+CUS00518,2024-03-05,Premium,55+,False,Social Media
+CUS00519,2025-03-17,Occasional,45-54,True,Referral
+CUS00520,2023-09-09,Regular,25-34,True,Website
+CUS00521,2023-07-20,Regular,45-54,False,Referral
+CUS00522,2023-05-31,New,45-54,False,Social Media
+CUS00523,2024-07-26,Regular,35-44,True,Website
+CUS00524,2023-11-12,Premium,45-54,False,Referral
+CUS00525,2024-06-20,Regular,55+,True,Referral
+CUS00526,2025-05-20,New,25-34,False,Social Media
+CUS00527,2024-03-26,New,35-44,False,Website
+CUS00528,2025-03-25,Premium,35-44,True,Website
+CUS00529,2024-01-18,Regular,55+,True,Mobile App
+CUS00530,2023-01-04,Occasional,55+,True,Website
+CUS00531,2025-12-21,Regular,35-44,False,Walk-in
+CUS00532,2024-04-17,Occasional,25-34,False,Social Media
+CUS00533,2023-06-02,Occasional,45-54,False,Walk-in
+CUS00534,2024-07-08,New,45-54,False,Mobile App
+CUS00535,2024-11-03,New,45-54,False,Referral
+CUS00536,2025-12-07,Premium,55+,False,Walk-in
+CUS00537,2022-08-12,Premium,35-44,True,Mobile App
+CUS00538,2022-04-01,Occasional,45-54,False,Referral
+CUS00539,2024-05-31,Regular,18-24,True,Mobile App
+CUS00540,2024-11-28,Occasional,55+,True,Referral
+CUS00541,2024-03-12,Occasional,55+,False,Social Media
+CUS00542,2023-12-08,New,45-54,True,Website
+CUS00543,2022-06-25,Regular,25-34,True,Referral
+CUS00544,2024-07-21,Premium,55+,False,Website
+CUS00545,2022-07-19,Regular,45-54,True,Referral
+CUS00546,2022-04-02,Premium,18-24,True,Referral
+CUS00547,2025-08-20,Regular,25-34,False,Social Media
+CUS00548,2024-11-22,Regular,25-34,True,Website
+CUS00549,2024-08-04,Regular,45-54,False,Social Media
+CUS00550,2025-08-04,Occasional,45-54,True,Mobile App
+CUS00551,2023-02-09,Regular,45-54,True,Social Media
+CUS00552,2023-02-26,Regular,18-24,False,Mobile App
+CUS00553,2023-01-18,Regular,25-34,False,Referral
+CUS00554,2025-10-05,Premium,55+,False,Referral
+CUS00555,2025-05-07,Regular,45-54,False,Referral
+CUS00556,2023-12-22,Premium,55+,True,Referral
+CUS00557,2025-06-12,Occasional,25-34,True,Social Media
+CUS00558,2023-09-18,Regular,35-44,False,Mobile App
+CUS00559,2024-03-06,Regular,25-34,False,Website
+CUS00560,2023-01-16,Occasional,55+,False,Social Media
+CUS00561,2025-02-10,Regular,35-44,True,Referral
+CUS00562,2024-07-12,Occasional,35-44,False,Website
+CUS00563,2022-10-07,Regular,45-54,False,Mobile App
+CUS00564,2025-08-30,Occasional,45-54,False,Website
+CUS00565,2024-09-27,Regular,55+,True,Social Media
+CUS00566,2023-08-22,Regular,25-34,False,Social Media
+CUS00567,2024-07-25,Occasional,45-54,False,Walk-in
+CUS00568,2025-03-18,Regular,55+,False,Referral
+CUS00569,2025-01-15,Premium,18-24,False,Website
+CUS00570,2025-01-23,Regular,45-54,True,Social Media
+CUS00571,2023-09-02,Premium,18-24,False,Referral
+CUS00572,2022-06-28,Regular,18-24,False,Social Media
+CUS00573,2023-03-06,Premium,55+,False,Mobile App
+CUS00574,2025-07-19,Regular,55+,True,Social Media
+CUS00575,2023-02-28,Premium,55+,True,Referral
+CUS00576,2025-05-07,Occasional,35-44,False,Referral
+CUS00577,2023-08-16,Occasional,55+,False,Walk-in
+CUS00578,2022-10-05,New,45-54,False,Referral
+CUS00579,2025-09-05,Regular,25-34,True,Referral
+CUS00580,2023-05-22,Premium,45-54,False,Mobile App
+CUS00581,2025-07-19,Regular,45-54,True,Walk-in
+CUS00582,2025-07-21,Premium,18-24,False,Referral
+CUS00583,2025-11-23,New,35-44,False,Website
+CUS00584,2023-11-02,Occasional,18-24,False,Website
+CUS00585,2025-07-24,Occasional,35-44,False,Mobile App
+CUS00586,2024-03-25,Regular,45-54,False,Website
+CUS00587,2023-07-04,Regular,35-44,True,Mobile App
+CUS00588,2022-09-25,Occasional,45-54,False,Walk-in
+CUS00589,2022-04-05,Regular,45-54,True,Social Media
+CUS00590,2024-06-22,Occasional,45-54,True,Social Media
+CUS00591,2025-08-24,Regular,35-44,True,Referral
+CUS00592,2023-05-28,Regular,25-34,True,Referral
+CUS00593,2025-12-03,Premium,45-54,False,Walk-in
+CUS00594,2022-01-03,Regular,18-24,True,Social Media
+CUS00595,2024-11-29,Occasional,18-24,True,Referral
+CUS00596,2022-09-04,New,45-54,False,Website
+CUS00597,2022-05-26,Regular,18-24,False,Walk-in
+CUS00598,2022-07-31,Regular,35-44,True,Social Media
+CUS00599,2025-08-06,New,25-34,True,Mobile App
+CUS00600,2022-01-18,Occasional,25-34,False,Social Media
+CUS00601,2025-07-10,Occasional,45-54,False,Website
+CUS00602,2023-03-21,Regular,18-24,True,Walk-in
+CUS00603,2025-04-22,Occasional,35-44,False,Referral
+CUS00604,2022-10-14,Regular,18-24,True,Mobile App
+CUS00605,2025-05-13,Occasional,35-44,False,Walk-in
+CUS00606,2025-09-10,Premium,25-34,False,Mobile App
+CUS00607,2023-01-22,Occasional,35-44,False,Social Media
+CUS00608,2024-10-10,Regular,25-34,False,Mobile App
+CUS00609,2022-05-26,Occasional,18-24,False,Referral
+CUS00610,2022-09-28,Regular,55+,False,Mobile App
+CUS00611,2025-10-30,Regular,45-54,False,Walk-in
+CUS00612,2022-02-04,Occasional,18-24,True,Walk-in
+CUS00613,2022-05-04,New,45-54,False,Mobile App
+CUS00614,2024-04-30,Regular,45-54,True,Mobile App
+CUS00615,2025-01-06,Occasional,35-44,True,Walk-in
+CUS00616,2024-11-13,New,25-34,False,Website
+CUS00617,2025-04-16,Occasional,18-24,True,Website
+CUS00618,2023-05-04,Regular,18-24,False,Walk-in
+CUS00619,2024-07-17,Occasional,18-24,True,Social Media
+CUS00620,2022-09-02,Regular,25-34,False,Social Media
+CUS00621,2024-10-13,New,55+,False,Referral
+CUS00622,2022-12-08,Regular,35-44,False,Walk-in
+CUS00623,2022-03-02,Regular,45-54,True,Walk-in
+CUS00624,2023-06-23,Occasional,55+,False,Website
+CUS00625,2024-07-21,Occasional,18-24,False,Mobile App
+CUS00626,2022-12-08,Regular,35-44,False,Mobile App
+CUS00627,2025-10-12,Occasional,25-34,False,Walk-in
+CUS00628,2022-04-01,Premium,18-24,True,Website
+CUS00629,2024-01-16,Regular,25-34,True,Walk-in
+CUS00630,2025-02-06,Premium,45-54,True,Social Media
+CUS00631,2024-05-02,New,35-44,True,Walk-in
+CUS00632,2025-03-16,Regular,55+,False,Walk-in
+CUS00633,2023-01-03,Regular,55+,False,Website
+CUS00634,2022-05-22,Premium,35-44,False,Referral
+CUS00635,2023-11-02,Regular,45-54,True,Social Media
+CUS00636,2023-08-21,Occasional,35-44,False,Social Media
+CUS00637,2024-08-08,Regular,45-54,False,Social Media
+CUS00638,2025-01-24,Premium,25-34,True,Website
+CUS00639,2022-02-18,Regular,35-44,False,Walk-in
+CUS00640,2023-11-18,Regular,45-54,False,Referral
+CUS00641,2022-08-01,Regular,25-34,False,Walk-in
+CUS00642,2022-10-19,Occasional,18-24,True,Social Media
+CUS00643,2024-11-30,Regular,35-44,False,Walk-in
+CUS00644,2025-04-04,Regular,25-34,False,Website
+CUS00645,2022-06-03,Occasional,18-24,False,Social Media
+CUS00646,2023-04-30,Regular,35-44,False,Website
+CUS00647,2025-12-06,Premium,35-44,True,Referral
+CUS00648,2023-04-24,Regular,25-34,True,Mobile App
+CUS00649,2022-08-12,Regular,25-34,False,Referral
+CUS00650,2024-04-12,Regular,35-44,False,Social Media
+CUS00651,2024-07-14,Regular,35-44,False,Walk-in
+CUS00652,2022-11-19,Premium,35-44,False,Mobile App
+CUS00653,2022-03-24,Regular,35-44,True,Social Media
+CUS00654,2023-12-30,Regular,18-24,False,Referral
+CUS00655,2022-12-23,Regular,45-54,False,Mobile App
+CUS00656,2025-01-31,Regular,45-54,True,Social Media
+CUS00657,2022-09-06,Regular,25-34,True,Website
+CUS00658,2024-02-02,Occasional,18-24,False,Referral
+CUS00659,2022-06-03,Regular,18-24,True,Website
+CUS00660,2022-09-21,Regular,35-44,True,Website
+CUS00661,2022-04-14,Regular,55+,False,Website
+CUS00662,2024-10-13,Regular,45-54,True,Social Media
+CUS00663,2023-01-19,Regular,45-54,False,Walk-in
+CUS00664,2025-06-11,Occasional,25-34,False,Website
+CUS00665,2024-04-23,Premium,45-54,True,Referral
+CUS00666,2024-02-24,Regular,25-34,False,Mobile App
+CUS00667,2023-05-26,Occasional,55+,False,Website
+CUS00668,2025-12-31,Regular,55+,False,Referral
+CUS00669,2025-03-04,Occasional,45-54,True,Walk-in
+CUS00670,2023-10-16,Occasional,18-24,False,Referral
+CUS00671,2022-04-30,Premium,45-54,False,Mobile App
+CUS00672,2023-04-22,New,18-24,True,Social Media
+CUS00673,2023-06-30,Occasional,18-24,False,Social Media
+CUS00674,2025-03-25,Premium,45-54,True,Social Media
+CUS00675,2022-12-27,Regular,35-44,False,Referral
+CUS00676,2025-04-26,Regular,35-44,False,Mobile App
+CUS00677,2022-10-19,Occasional,25-34,False,Website
+CUS00678,2025-01-15,Regular,45-54,True,Walk-in
+CUS00679,2023-04-22,Occasional,18-24,False,Walk-in
+CUS00680,2023-11-11,New,25-34,False,Referral
+CUS00681,2022-12-30,New,35-44,True,Social Media
+CUS00682,2025-04-16,Occasional,25-34,False,Mobile App
+CUS00683,2024-01-18,New,35-44,False,Website
+CUS00684,2025-04-15,Regular,35-44,True,Social Media
+CUS00685,2024-06-13,Premium,45-54,False,Social Media
+CUS00686,2025-12-19,New,55+,False,Social Media
+CUS00687,2025-09-25,Occasional,25-34,True,Referral
+CUS00688,2022-09-18,Regular,18-24,False,Mobile App
+CUS00689,2024-03-12,Premium,55+,True,Mobile App
+CUS00690,2023-10-14,New,55+,True,Mobile App
+CUS00691,2022-08-02,New,25-34,True,Walk-in
+CUS00692,2023-05-03,Regular,35-44,True,Walk-in
+CUS00693,2025-12-22,Occasional,35-44,False,Referral
+CUS00694,2023-03-06,Regular,18-24,True,Walk-in
+CUS00695,2022-01-03,Regular,45-54,False,Social Media
+CUS00696,2024-04-27,Occasional,45-54,True,Website
+CUS00697,2022-07-27,Premium,55+,False,Social Media
+CUS00698,2022-11-30,Occasional,18-24,True,Referral
+CUS00699,2023-06-19,New,18-24,True,Website
+CUS00700,2022-11-26,Occasional,55+,False,Walk-in
+CUS00701,2023-11-24,Occasional,55+,False,Walk-in
+CUS00702,2024-06-02,New,25-34,False,Website
+CUS00703,2022-11-18,Regular,35-44,True,Social Media
+CUS00704,2024-04-18,Occasional,55+,True,Referral
+CUS00705,2023-09-02,Regular,18-24,True,Mobile App
+CUS00706,2024-10-02,Regular,35-44,True,Walk-in
+CUS00707,2023-08-27,Premium,55+,False,Walk-in
+CUS00708,2022-02-22,Regular,35-44,False,Website
+CUS00709,2022-08-25,Regular,45-54,False,Referral
+CUS00710,2022-07-06,Occasional,45-54,True,Website
+CUS00711,2024-01-27,Regular,18-24,True,Website
+CUS00712,2023-06-24,Regular,35-44,False,Social Media
+CUS00713,2025-11-27,Occasional,18-24,False,Mobile App
+CUS00714,2024-04-27,New,55+,True,Walk-in
+CUS00715,2024-03-03,Premium,45-54,False,Website
+CUS00716,2025-03-18,Premium,45-54,True,Website
+CUS00717,2022-03-13,Occasional,55+,False,Mobile App
+CUS00718,2022-10-29,Regular,45-54,True,Social Media
+CUS00719,2023-03-10,Premium,25-34,True,Walk-in
+CUS00720,2025-10-31,Regular,25-34,False,Referral
+CUS00721,2023-10-17,New,18-24,True,Mobile App
+CUS00722,2024-03-24,Occasional,35-44,False,Walk-in
+CUS00723,2025-12-05,Occasional,55+,False,Walk-in
+CUS00724,2024-04-28,Regular,55+,False,Walk-in
+CUS00725,2022-08-05,Occasional,18-24,False,Mobile App
+CUS00726,2023-12-06,Premium,35-44,True,Website
+CUS00727,2025-03-17,Occasional,18-24,True,Website
+CUS00728,2022-10-22,Occasional,45-54,True,Referral
+CUS00729,2025-11-15,Regular,45-54,False,Referral
+CUS00730,2022-02-11,Regular,35-44,True,Website
+CUS00731,2025-11-26,Occasional,25-34,True,Website
+CUS00732,2023-10-20,Regular,45-54,False,Walk-in
+CUS00733,2023-01-20,Regular,45-54,False,Mobile App
+CUS00734,2024-02-05,Premium,55+,False,Walk-in
+CUS00735,2023-09-30,Occasional,45-54,True,Mobile App
+CUS00736,2025-03-10,Regular,25-34,False,Social Media
+CUS00737,2022-04-29,Regular,45-54,True,Referral
+CUS00738,2025-12-14,Regular,35-44,False,Mobile App
+CUS00739,2024-03-23,Occasional,18-24,False,Social Media
+CUS00740,2024-02-02,Occasional,45-54,True,Website
+CUS00741,2025-04-16,Occasional,35-44,True,Referral
+CUS00742,2025-11-11,Regular,18-24,True,Social Media
+CUS00743,2025-03-17,Premium,25-34,False,Social Media
+CUS00744,2025-10-19,Regular,45-54,False,Walk-in
+CUS00745,2024-08-28,New,25-34,False,Walk-in
+CUS00746,2023-04-04,Regular,35-44,False,Referral
+CUS00747,2024-05-17,Premium,35-44,False,Social Media
+CUS00748,2024-08-13,Regular,55+,False,Website
+CUS00749,2025-04-12,Regular,55+,False,Referral
+CUS00750,2025-02-23,Occasional,55+,True,Walk-in
+CUS00751,2024-09-13,Regular,35-44,False,Referral
+CUS00752,2023-06-19,Occasional,35-44,True,Mobile App
+CUS00753,2023-05-08,Premium,55+,False,Referral
+CUS00754,2025-10-26,Regular,18-24,False,Referral
+CUS00755,2023-06-16,New,45-54,True,Walk-in
+CUS00756,2025-04-09,Occasional,55+,False,Referral
+CUS00757,2025-12-31,Regular,55+,False,Website
+CUS00758,2025-10-07,Regular,35-44,False,Mobile App
+CUS00759,2023-01-06,Regular,45-54,True,Referral
+CUS00760,2025-02-18,Premium,25-34,False,Referral
+CUS00761,2025-09-02,Regular,35-44,True,Referral
+CUS00762,2024-05-11,Premium,35-44,True,Mobile App
+CUS00763,2023-08-26,Occasional,18-24,False,Mobile App
+CUS00764,2025-04-03,New,18-24,False,Social Media
+CUS00765,2024-10-21,Regular,45-54,False,Website
+CUS00766,2022-04-21,Premium,25-34,True,Social Media
+CUS00767,2023-12-03,Regular,55+,False,Website
+CUS00768,2022-10-21,Regular,25-34,False,Website
+CUS00769,2023-11-13,Occasional,25-34,True,Walk-in
+CUS00770,2022-01-10,Occasional,25-34,False,Social Media
+CUS00771,2025-03-26,Premium,45-54,False,Walk-in
+CUS00772,2022-09-23,Occasional,45-54,False,Website
+CUS00773,2024-02-25,Regular,55+,True,Referral
+CUS00774,2022-01-29,Premium,55+,True,Walk-in
+CUS00775,2025-07-07,Occasional,25-34,False,Referral
+CUS00776,2023-10-02,Regular,45-54,False,Referral
+CUS00777,2022-12-09,Regular,18-24,True,Referral
+CUS00778,2024-07-22,Occasional,55+,False,Website
+CUS00779,2025-11-07,New,35-44,False,Website
+CUS00780,2024-01-06,Premium,25-34,False,Website
+CUS00781,2022-02-09,Regular,25-34,True,Walk-in
+CUS00782,2025-04-22,Occasional,18-24,True,Walk-in
+CUS00783,2024-02-08,Premium,35-44,False,Mobile App
+CUS00784,2022-04-10,Occasional,18-24,False,Walk-in
+CUS00785,2022-04-09,Occasional,45-54,False,Walk-in
+CUS00786,2025-01-25,Regular,25-34,True,Walk-in
+CUS00787,2023-09-09,Regular,18-24,False,Referral
+CUS00788,2025-06-29,Occasional,25-34,False,Walk-in
+CUS00789,2024-11-13,Occasional,18-24,True,Walk-in
+CUS00790,2024-10-16,Regular,25-34,False,Mobile App
+CUS00791,2023-02-18,Regular,45-54,True,Walk-in
+CUS00792,2025-01-27,Occasional,25-34,False,Website
+CUS00793,2023-11-09,Regular,18-24,False,Walk-in
+CUS00794,2025-03-21,Occasional,25-34,False,Mobile App
+CUS00795,2022-06-03,Occasional,18-24,False,Social Media
+CUS00796,2024-07-24,New,35-44,True,Walk-in
+CUS00797,2022-07-24,Premium,18-24,False,Referral
+CUS00798,2025-10-18,Regular,18-24,True,Walk-in
+CUS00799,2022-01-20,Premium,25-34,True,Website
+CUS00800,2025-06-27,Regular,18-24,True,Referral
+CUS00801,2023-01-10,Regular,45-54,False,Referral
+CUS00802,2024-02-29,Occasional,45-54,False,Social Media
+CUS00803,2022-08-20,Regular,18-24,False,Social Media
+CUS00804,2022-08-01,Regular,55+,False,Mobile App
+CUS00805,2025-10-21,Regular,55+,True,Referral
+CUS00806,2025-06-06,Regular,25-34,False,Website
+CUS00807,2022-08-20,Premium,45-54,True,Referral
+CUS00808,2025-09-03,Regular,55+,False,Mobile App
+CUS00809,2025-03-03,Regular,35-44,False,Mobile App
+CUS00810,2022-07-15,Regular,25-34,False,Website
+CUS00811,2022-11-01,Premium,55+,False,Mobile App
+CUS00812,2022-04-22,Regular,25-34,False,Website
+CUS00813,2024-10-12,Premium,18-24,False,Referral
+CUS00814,2023-05-09,Regular,35-44,True,Social Media
+CUS00815,2025-02-01,Occasional,45-54,False,Walk-in
+CUS00816,2024-07-29,Regular,55+,False,Website
+CUS00817,2024-07-04,Regular,45-54,False,Walk-in
+CUS00818,2022-07-30,Regular,18-24,False,Walk-in
+CUS00819,2022-07-06,Premium,55+,False,Mobile App
+CUS00820,2025-02-25,Regular,45-54,False,Referral
+CUS00821,2022-04-22,Premium,45-54,True,Mobile App
+CUS00822,2025-05-13,Occasional,35-44,False,Walk-in
+CUS00823,2022-07-19,Premium,25-34,True,Referral
+CUS00824,2025-07-21,New,35-44,False,Referral
+CUS00825,2025-12-08,Regular,25-34,False,Website
+CUS00826,2022-08-08,Regular,25-34,True,Website
+CUS00827,2023-03-18,Occasional,25-34,False,Walk-in
+CUS00828,2024-04-28,Regular,55+,True,Website
+CUS00829,2024-07-25,Occasional,55+,True,Website
+CUS00830,2022-01-09,Occasional,18-24,False,Website
+CUS00831,2025-04-13,Occasional,55+,False,Social Media
+CUS00832,2025-11-17,Occasional,25-34,True,Mobile App
+CUS00833,2025-05-26,Premium,55+,False,Website
+CUS00834,2025-06-01,New,25-34,True,Referral
+CUS00835,2023-08-26,Occasional,25-34,True,Mobile App
+CUS00836,2025-12-04,Premium,55+,True,Mobile App
+CUS00837,2023-10-05,Occasional,55+,False,Social Media
+CUS00838,2023-03-06,Occasional,35-44,False,Social Media
+CUS00839,2025-12-25,Occasional,25-34,False,Referral
+CUS00840,2025-12-25,Regular,35-44,False,Mobile App
+CUS00841,2025-03-14,New,45-54,False,Mobile App
+CUS00842,2023-08-09,Premium,45-54,False,Mobile App
+CUS00843,2022-08-07,Regular,25-34,True,Walk-in
+CUS00844,2023-02-14,Regular,25-34,False,Referral
+CUS00845,2022-10-27,Premium,35-44,True,Mobile App
+CUS00846,2022-03-08,Regular,45-54,True,Mobile App
+CUS00847,2023-04-05,Occasional,55+,True,Mobile App
+CUS00848,2025-11-26,Regular,18-24,False,Website
+CUS00849,2024-05-03,New,35-44,False,Walk-in
+CUS00850,2022-01-27,Occasional,25-34,False,Website
+CUS00851,2023-04-07,New,35-44,False,Mobile App
+CUS00852,2025-05-20,Regular,25-34,True,Social Media
+CUS00853,2025-10-30,Regular,25-34,False,Walk-in
+CUS00854,2024-02-12,Regular,35-44,False,Social Media
+CUS00855,2022-11-26,Occasional,35-44,True,Website
+CUS00856,2025-12-24,New,18-24,True,Referral
+CUS00857,2025-05-07,Regular,55+,False,Referral
+CUS00858,2024-10-01,Premium,55+,True,Referral
+CUS00859,2024-12-12,Regular,25-34,False,Mobile App
+CUS00860,2022-11-23,Regular,55+,False,Referral
+CUS00861,2023-03-30,Premium,35-44,True,Referral
+CUS00862,2023-03-24,New,55+,False,Mobile App
+CUS00863,2025-08-22,Regular,35-44,False,Mobile App
+CUS00864,2025-06-26,Regular,18-24,False,Referral
+CUS00865,2024-02-21,New,18-24,True,Mobile App
+CUS00866,2023-08-03,Regular,55+,False,Referral
+CUS00867,2024-11-19,Premium,45-54,False,Referral
+CUS00868,2025-08-27,Regular,55+,True,Walk-in
+CUS00869,2022-12-09,New,55+,False,Walk-in
+CUS00870,2023-03-08,Occasional,25-34,False,Website
+CUS00871,2022-08-01,Regular,45-54,False,Walk-in
+CUS00872,2025-11-06,Regular,45-54,False,Walk-in
+CUS00873,2022-06-29,Regular,25-34,False,Mobile App
+CUS00874,2022-05-25,Occasional,25-34,False,Website
+CUS00875,2024-03-05,Occasional,45-54,False,Walk-in
+CUS00876,2024-03-08,Occasional,55+,True,Mobile App
+CUS00877,2022-05-10,Premium,55+,True,Walk-in
+CUS00878,2024-01-03,New,18-24,True,Referral
+CUS00879,2025-05-27,Regular,45-54,True,Walk-in
+CUS00880,2024-08-28,Regular,25-34,True,Website
+CUS00881,2025-01-22,Regular,25-34,True,Referral
+CUS00882,2022-01-23,Occasional,55+,True,Walk-in
+CUS00883,2022-01-11,Occasional,45-54,False,Walk-in
+CUS00884,2023-09-17,Regular,35-44,True,Mobile App
+CUS00885,2022-10-19,Regular,25-34,False,Referral
+CUS00886,2023-02-02,Regular,55+,False,Mobile App
+CUS00887,2024-08-02,Occasional,18-24,True,Walk-in
+CUS00888,2023-05-29,Regular,55+,False,Referral
+CUS00889,2024-01-02,Regular,25-34,True,Mobile App
+CUS00890,2022-05-23,New,35-44,False,Referral
+CUS00891,2025-06-16,Occasional,55+,True,Mobile App
+CUS00892,2024-01-17,Premium,45-54,True,Referral
+CUS00893,2023-05-20,Premium,45-54,True,Referral
+CUS00894,2022-10-03,Occasional,35-44,False,Website
+CUS00895,2024-07-01,Regular,35-44,False,Walk-in
+CUS00896,2022-12-26,Occasional,18-24,False,Social Media
+CUS00897,2025-01-08,Regular,18-24,False,Walk-in
+CUS00898,2024-11-04,Occasional,55+,False,Mobile App
+CUS00899,2023-03-12,New,55+,True,Mobile App
+CUS00900,2024-08-24,Occasional,25-34,True,Social Media
+CUS00901,2025-04-22,Occasional,35-44,True,Mobile App
+CUS00902,2024-11-11,Regular,35-44,False,Social Media
+CUS00903,2025-06-11,Occasional,55+,True,Social Media
+CUS00904,2023-01-02,Occasional,55+,False,Social Media
+CUS00905,2024-09-17,New,18-24,True,Website
+CUS00906,2023-04-20,Regular,35-44,True,Social Media
+CUS00907,2024-11-26,New,35-44,True,Website
+CUS00908,2022-04-06,Regular,35-44,True,Mobile App
+CUS00909,2025-07-21,Premium,35-44,False,Mobile App
+CUS00910,2022-12-23,Regular,45-54,True,Walk-in
+CUS00911,2024-11-24,Regular,25-34,False,Referral
+CUS00912,2023-12-08,Occasional,45-54,False,Walk-in
+CUS00913,2024-10-24,Premium,45-54,True,Walk-in
+CUS00914,2024-11-19,Occasional,25-34,True,Social Media
+CUS00915,2024-01-12,Occasional,18-24,False,Website
+CUS00916,2023-11-08,Occasional,45-54,False,Website
+CUS00917,2023-03-08,Occasional,45-54,True,Walk-in
+CUS00918,2022-09-19,Occasional,25-34,True,Mobile App
+CUS00919,2022-03-22,Premium,25-34,True,Referral
+CUS00920,2023-01-04,Occasional,45-54,False,Mobile App
+CUS00921,2025-07-29,Regular,35-44,False,Social Media
+CUS00922,2024-07-08,Occasional,45-54,False,Social Media
+CUS00923,2023-03-26,Premium,55+,True,Mobile App
+CUS00924,2023-01-08,Occasional,55+,True,Referral
+CUS00925,2024-07-17,Occasional,18-24,True,Website
+CUS00926,2022-09-28,Regular,25-34,False,Mobile App
+CUS00927,2025-11-02,Regular,25-34,False,Social Media
+CUS00928,2024-09-01,New,55+,True,Mobile App
+CUS00929,2024-10-27,Premium,18-24,False,Social Media
+CUS00930,2025-05-20,Occasional,18-24,False,Website
+CUS00931,2024-12-05,Regular,18-24,False,Website
+CUS00932,2023-04-15,New,45-54,False,Website
+CUS00933,2023-12-19,Occasional,55+,True,Social Media
+CUS00934,2023-06-06,Occasional,25-34,False,Walk-in
+CUS00935,2023-08-04,Occasional,55+,False,Social Media
+CUS00936,2022-01-12,Occasional,18-24,False,Walk-in
+CUS00937,2024-11-30,Regular,25-34,False,Referral
+CUS00938,2024-04-17,Regular,25-34,False,Mobile App
+CUS00939,2023-06-04,Regular,55+,False,Referral
+CUS00940,2025-06-07,Regular,45-54,False,Website
+CUS00941,2025-02-04,Premium,45-54,True,Mobile App
+CUS00942,2025-02-10,Occasional,35-44,False,Website
+CUS00943,2022-10-10,Premium,18-24,False,Website
+CUS00944,2025-12-03,New,18-24,True,Website
+CUS00945,2023-11-25,Premium,55+,False,Walk-in
+CUS00946,2022-11-26,Regular,18-24,False,Social Media
+CUS00947,2024-08-23,New,45-54,True,Referral
+CUS00948,2023-03-31,Regular,55+,True,Website
+CUS00949,2024-03-31,Occasional,55+,True,Mobile App
+CUS00950,2022-04-28,New,25-34,False,Website
+CUS00951,2022-01-22,Regular,55+,True,Walk-in
+CUS00952,2025-05-12,Occasional,25-34,False,Walk-in
+CUS00953,2024-01-07,Regular,18-24,False,Walk-in
+CUS00954,2023-07-20,Premium,35-44,False,Website
+CUS00955,2025-04-15,Regular,18-24,False,Walk-in
+CUS00956,2022-07-04,Occasional,55+,False,Referral
+CUS00957,2023-12-13,New,35-44,True,Social Media
+CUS00958,2024-07-20,New,55+,True,Social Media
+CUS00959,2024-04-13,Occasional,55+,True,Referral
+CUS00960,2023-11-28,New,55+,False,Mobile App
+CUS00961,2025-03-23,Regular,45-54,False,Mobile App
+CUS00962,2024-09-17,Premium,35-44,False,Website
+CUS00963,2025-10-27,Occasional,55+,False,Website
+CUS00964,2022-08-27,Regular,45-54,False,Social Media
+CUS00965,2025-10-18,Occasional,35-44,False,Referral
+CUS00966,2024-11-23,Occasional,35-44,True,Walk-in
+CUS00967,2024-03-28,Occasional,35-44,True,Social Media
+CUS00968,2024-09-02,Regular,25-34,False,Referral
+CUS00969,2023-01-10,New,25-34,False,Social Media
+CUS00970,2023-04-26,Occasional,35-44,True,Social Media
+CUS00971,2023-05-27,Premium,35-44,True,Walk-in
+CUS00972,2022-09-03,New,45-54,False,Mobile App
+CUS00973,2022-03-28,Premium,35-44,False,Website
+CUS00974,2025-03-22,Premium,45-54,True,Mobile App
+CUS00975,2023-07-28,Regular,55+,True,Mobile App
+CUS00976,2024-05-16,Occasional,55+,True,Referral
+CUS00977,2024-03-17,Premium,25-34,False,Walk-in
+CUS00978,2025-12-01,Occasional,35-44,False,Walk-in
+CUS00979,2025-10-12,Regular,55+,True,Referral
+CUS00980,2025-06-08,Premium,25-34,False,Social Media
+CUS00981,2023-07-06,Occasional,55+,True,Social Media
+CUS00982,2024-10-18,Regular,45-54,False,Referral
+CUS00983,2024-01-18,Premium,35-44,False,Mobile App
+CUS00984,2022-09-26,New,25-34,False,Referral
+CUS00985,2023-04-28,Occasional,45-54,True,Social Media
+CUS00986,2024-08-26,Premium,25-34,False,Social Media
+CUS00987,2025-07-15,Occasional,35-44,False,Referral
+CUS00988,2023-05-29,Occasional,55+,True,Walk-in
+CUS00989,2025-11-15,Regular,25-34,False,Website
+CUS00990,2025-07-13,Regular,35-44,True,Referral
+CUS00991,2025-02-21,Occasional,35-44,True,Website
+CUS00992,2022-09-06,Regular,55+,True,Mobile App
+CUS00993,2025-08-23,Occasional,25-34,False,Referral
+CUS00994,2023-12-29,Regular,55+,False,Website
+CUS00995,2022-06-10,Regular,35-44,False,Social Media
+CUS00996,2022-12-10,Occasional,35-44,False,Mobile App
+CUS00997,2025-03-16,Regular,18-24,True,Referral
+CUS00998,2023-04-13,Regular,35-44,False,Mobile App
+CUS00999,2025-08-13,Regular,45-54,False,Referral
+CUS01000,2025-04-17,Occasional,45-54,False,Social Media
