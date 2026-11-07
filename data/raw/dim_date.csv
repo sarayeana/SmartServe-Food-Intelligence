@@ -1,5 +1,5 @@
 date_id,full_date,year,quarter,month,month_name,week,day,day_name,day_of_week,is_weekend,is_holiday,holiday_name,season
-20250101,2025-01-01,2025,1,1,January,1,1,Wednesday,3,False,False,,Winter
+20250101,2025-01-01,2025,1,1,January,1,1,Wednesday,3,False,True,New Year's Day,Winter
 20250102,2025-01-02,2025,1,1,January,1,2,Thursday,4,False,False,,Winter
 20250103,2025-01-03,2025,1,1,January,1,3,Friday,5,False,False,,Winter
 20250104,2025-01-04,2025,1,1,January,1,4,Saturday,6,True,False,,Winter
@@ -50,7 +50,7 @@ date_id,full_date,year,quarter,month,month_name,week,day,day_name,day_of_week,is
 20250218,2025-02-18,2025,1,2,February,8,18,Tuesday,2,False,False,,Winter
 20250219,2025-02-19,2025,1,2,February,8,19,Wednesday,3,False,False,,Winter
 20250220,2025-02-20,2025,1,2,February,8,20,Thursday,4,False,False,,Winter
-20250221,2025-02-21,2025,1,2,February,8,21,Friday,5,False,False,,Winter
+20250221,2025-02-21,2025,1,2,February,8,21,Friday,5,False,True,International Mother Language Day,Winter
 20250222,2025-02-22,2025,1,2,February,8,22,Saturday,6,True,False,,Winter
 20250223,2025-02-23,2025,1,2,February,8,23,Sunday,7,True,False,,Winter
 20250224,2025-02-24,2025,1,2,February,9,24,Monday,1,False,False,,Winter
@@ -83,9 +83,9 @@ date_id,full_date,year,quarter,month,month_name,week,day,day_name,day_of_week,is
 20250323,2025-03-23,2025,1,3,March,12,23,Sunday,7,True,False,,Spring
 20250324,2025-03-24,2025,1,3,March,13,24,Monday,1,False,False,,Spring
 20250325,2025-03-25,2025,1,3,March,13,25,Tuesday,2,False,False,,Spring
-20250326,2025-03-26,2025,1,3,March,13,26,Wednesday,3,False,False,,Spring
+20250326,2025-03-26,2025,1,3,March,13,26,Wednesday,3,False,True,Independence Day,Spring
 20250327,2025-03-27,2025,1,3,March,13,27,Thursday,4,False,False,,Spring
 20250328,2025-03-28,2025,1,3,March,13,28,Friday,5,False,False,,Spring
 20250329,2025-03-29,2025,1,3,March,13,29,Saturday,6,True,False,,Spring
 20250330,2025-03-30,2025,1,3,March,13,30,Sunday,7,True,False,,Spring
-20250331,2025-03-31,2025,1,3,March,14,31,Monday,1,False,False,,Spring
+20250331,2025-03-31,2025,1,3,March,14,31,Monday,1,False,True,Eid-ul-Fitr,Spring

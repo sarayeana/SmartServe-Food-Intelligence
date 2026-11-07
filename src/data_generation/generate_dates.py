@@ -1,8 +1,7 @@
-from datetime import timedelta
 
 import pandas as pd
 
-from src.config import CONFIG, DATA_RAW, RANDOM_SEED
+from src.config import CONFIG, DATA_RAW
 from src.logger import get_logger
 from src.utils import ensure_directory
 
@@ -15,14 +14,8 @@ def generate_dates(
     end_date: str
 ) -> pd.DataFrame:
     """
-    Generate the SmartServe date dimension.
-
-    Args:
-        start_date: First date in YYYY-MM-DD format.
-        end_date: Last date in YYYY-MM-DD format.
-
-    Returns:
-        DataFrame containing the date dimension.
+    Generate the SmartServe date dimension and enrich it
+    with holiday information from dim_holiday.csv.
     """
 
     logger.info(
@@ -41,6 +34,7 @@ def generate_dates(
         "full_date": dates
     })
 
+    # Calendar attributes
     df["date_id"] = df["full_date"].dt.strftime("%Y%m%d").astype(int)
     df["year"] = df["full_date"].dt.year
     df["quarter"] = df["full_date"].dt.quarter
@@ -52,7 +46,7 @@ def generate_dates(
     df["day_of_week"] = df["full_date"].dt.dayofweek + 1
     df["is_weekend"] = df["day_of_week"].isin([6, 7])
 
-    # Basic season classification
+    # Season classification
     def get_season(month: int) -> str:
         if month in [12, 1, 2]:
             return "Winter"
@@ -64,10 +58,59 @@ def generate_dates(
 
     df["season"] = df["month"].apply(get_season)
 
-    # Placeholder holiday fields.
-    # These will be enriched later by the holiday generator.
+    # Initialize holiday columns
     df["is_holiday"] = False
     df["holiday_name"] = None
+
+    # Enrich date dimension using the holiday dimension
+    holiday_file = DATA_RAW / "dim_holiday.csv"
+
+    if holiday_file.exists():
+
+        holidays = pd.read_csv(holiday_file)
+
+        required_columns = {"holiday_date", "holiday_name"}
+
+        if not required_columns.issubset(holidays.columns):
+            raise ValueError(
+                "dim_holiday.csv must contain holiday_date "
+                "and holiday_name columns."
+            )
+
+        holidays["holiday_date"] = pd.to_datetime(
+            holidays["holiday_date"],
+            errors="raise"
+        ).dt.normalize()
+
+        if holidays["holiday_date"].duplicated().any():
+            raise ValueError(
+                "Duplicate holiday dates found in dim_holiday.csv."
+            )
+
+        holiday_map = (
+            holidays
+            .dropna(subset=["holiday_name"])
+            .set_index("holiday_date")["holiday_name"]
+            .to_dict()
+        )
+
+        df["holiday_name"] = (
+            df["full_date"]
+            .dt.normalize()
+            .map(holiday_map)
+        )
+
+        df["is_holiday"] = df["holiday_name"].notna()
+
+        logger.info(
+            "Matched %s holidays within the generated date range.",
+            int(df["is_holiday"].sum())
+        )
+
+    else:
+        logger.warning(
+            "dim_holiday.csv not found. Holiday fields remain empty."
+        )
 
     # Reorder columns
     df = df[
@@ -99,12 +142,12 @@ def main() -> None:
 
     prototype_config = CONFIG["data_generation"]["prototype"]
 
+    ensure_directory(DATA_RAW)
+
     df = generate_dates(
         start_date=prototype_config["start_date"],
         end_date=prototype_config["end_date"]
     )
-
-    ensure_directory(DATA_RAW)
 
     output_file = DATA_RAW / "dim_date.csv"
     df.to_csv(output_file, index=False)
