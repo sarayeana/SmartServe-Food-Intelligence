@@ -1,0 +1,6 @@
+store_id,total_records,actual_demand,predicted_demand,average_actual_demand,average_predicted_demand,mean_absolute_error,mean_prediction_error,demand_difference,demand_difference_pct
+ST001,1800,71927,70149,39.96,38.97,9.55,-0.99,-1778,-2.47
+ST002,1800,55357,55824,30.75,31.01,7.46,0.26,467,0.84
+ST003,1800,41423,45439,23.01,25.24,6.37,2.23,4016,9.7
+ST004,1800,72734,70820,40.41,39.34,10.05,-1.06,-1914,-2.63
+ST005,1800,55222,55777,30.68,30.99,7.62,0.31,555,1.01

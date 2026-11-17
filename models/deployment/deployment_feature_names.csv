@@ -1,0 +1,111 @@
+feature_order,feature_name
+1,calendar_year
+2,calendar_quarter
+3,calendar_month
+4,calendar_week
+5,calendar_day
+6,calendar_day_of_week
+7,calendar_is_weekend
+8,calendar_is_holiday
+9,store_seating_capacity
+10,store_average_daily_customers
+11,product_unit_cost
+12,product_selling_price
+13,product_shelf_life_hours
+14,product_preparation_time
+15,product_active_flag
+16,weather_temperature
+17,weather_rainfall
+18,weather_humidity
+19,sales_lag_1
+20,sales_lag_7
+21,sales_lag_14
+22,sales_lag_28
+23,sales_rolling_mean_7
+24,sales_rolling_mean_14
+25,sales_rolling_mean_28
+26,store_operating_days
+27,sales_lag_1_missing
+28,sales_lag_7_missing
+29,sales_lag_14_missing
+30,sales_lag_28_missing
+31,sales_rolling_mean_7_missing
+32,sales_rolling_mean_14_missing
+33,sales_rolling_mean_28_missing
+34,calendar_month_name_February
+35,calendar_month_name_January
+36,calendar_month_name_March
+37,calendar_day_name_Friday
+38,calendar_day_name_Monday
+39,calendar_day_name_Saturday
+40,calendar_day_name_Sunday
+41,calendar_day_name_Thursday
+42,calendar_day_name_Tuesday
+43,calendar_day_name_Wednesday
+44,calendar_holiday_name_International Mother Language Day
+45,calendar_holiday_name_New Year's Day
+46,calendar_holiday_name_No Holiday
+47,calendar_season_Spring
+48,calendar_season_Winter
+49,store_store_name_SmartServe Chattogram 2
+50,store_store_name_SmartServe Dhaka 1
+51,store_store_name_SmartServe Khulna 5
+52,store_store_name_SmartServe Rajshahi 4
+53,store_store_name_SmartServe Sylhet 3
+54,store_city_Chattogram
+55,store_city_Dhaka
+56,store_city_Khulna
+57,store_city_Rajshahi
+58,store_city_Sylhet
+59,store_area_Business District
+60,store_area_Downtown
+61,store_area_Residential Area
+62,store_area_Shopping Mall
+63,store_area_University Area
+64,store_store_type_Express
+65,store_store_type_Flagship
+66,store_store_type_Standard
+67,store_manager_region_Central
+68,store_manager_region_East
+69,store_manager_region_North
+70,store_manager_region_South
+71,store_manager_region_West
+72,product_product_name_Americano
+73,product_product_name_Beef Burger
+74,product_product_name_Blueberry Muffin
+75,product_product_name_Cappuccino
+76,product_product_name_Cheesecake
+77,product_product_name_Chicken Burger
+78,product_product_name_Chicken Sandwich
+79,product_product_name_Chocolate Cake
+80,product_product_name_Chocolate Cookie
+81,product_product_name_Chocolate Shake
+82,product_product_name_Croissant
+83,product_product_name_Espresso
+84,product_product_name_French Fries
+85,product_product_name_Iced Coffee
+86,product_product_name_Iced Latte
+87,product_product_name_Latte
+88,product_product_name_Lemonade
+89,product_product_name_Mango Smoothie
+90,product_product_name_Mocha
+91,product_product_name_Veggie Sandwich
+92,product_category_Beverage
+93,product_category_Dessert
+94,product_category_Food
+95,product_subcategory_Bakery
+96,product_subcategory_Burger
+97,product_subcategory_Cake
+98,product_subcategory_Coffee
+99,product_subcategory_Cold Drinks
+100,product_subcategory_Sandwich
+101,product_subcategory_Shake
+102,product_subcategory_Sides
+103,product_subcategory_Smoothie
+104,product_size_Regular
+105,product_size_Slice
+106,product_size_Small
+107,weather_weather_condition_Cloudy
+108,weather_weather_condition_Partly Cloudy
+109,weather_weather_condition_Rainy
+110,weather_weather_condition_Sunny
