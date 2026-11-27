@@ -1,86 +1,119 @@
 # SmartServe Data Directory
 
-This directory contains the datasets used throughout the SmartServe Food Intelligence project.
+This directory contains the synthetic operational datasets used throughout the SmartServe Food Intelligence project.
 
-The data is organized into three stages:
+The datasets support data understanding, data quality assessment, exploratory data analysis, preprocessing, demand forecasting, inventory optimization, and business intelligence.
+
+## 1. Data Pipeline
+
+The project follows a structured data pipeline:
 
 ```text
-raw
- ↓
-processed
- ↓
-ml
+Raw Data
+   ↓
+Data Validation
+   ↓
+Preprocessing
+   ↓
+Processed Data
+   ↓
+Feature Engineering
+   ↓
+Machine Learning and Deployment
+   ↓
+Business Intelligence
 ```
 
----
-
-## 1. Raw Data
+## 2. Raw Data
 
 The `raw/` directory contains the original generated operational datasets before cleaning and preprocessing.
 
-Expected datasets include:
+The datasets include:
 
-* `dim_date.csv`
-* `dim_store.csv`
-* `dim_product.csv`
-* `dim_customer.csv`
-* `dim_promotion.csv`
-* `dim_holiday.csv`
-* `dim_weather.csv`
-* `fact_sales.csv`
-* `fact_preparation.csv`
-* `fact_inventory.csv`
-* `fact_waste.csv`
+- `dim_date.csv`
+- `dim_store.csv`
+- `dim_product.csv`
+- `dim_customer.csv`
+- `dim_promotion.csv`
+- `dim_holiday.csv`
+- `dim_weather.csv`
+- `fact_sales.csv`
+- `fact_preparation.csv`
+- `fact_inventory.csv`
+- `fact_waste.csv`
 
-These datasets will be generated using the project's Python data-generation pipeline.
+Raw data is preserved as the original source for reproducibility and validation.
 
-Raw data should not be manually modified.
+## 3. Processed Data
 
----
+The `processed/` directory contains datasets prepared through the data cleaning and preprocessing pipeline.
 
-## 2. Processed Data
+Processing activities include:
 
-The `processed/` directory contains cleaned and standardized datasets.
+- Data type correction
+- Missing-value assessment and handling
+- Duplicate record detection
+- Category standardization
+- Date standardization
+- Referential integrity validation
+- Business-rule validation
+- Feature engineering
 
-Typical processing steps include:
+Processed datasets are used for exploratory analysis, machine learning, SQL analytics, and downstream business intelligence.
 
-* Data type correction
-* Missing-value handling
-* Duplicate removal
-* Category standardization
-* Invalid-value handling
-* Date standardization
-* Referential integrity checks
-* Business-rule validation
+## 4. Machine Learning and Deployment Data
 
-The processed datasets will be used for SQL analysis, exploratory analysis, and downstream modeling.
+The project includes engineered features and model outputs used for demand forecasting and inventory decision support.
 
----
+The deployment datasets are stored in:
 
-## 3. Machine Learning Data
+`processed/deployment/`
 
-The `ml/` directory contains datasets prepared specifically for machine learning.
+Key exported files include:
 
-Expected datasets include:
+- `historical_demand_predictions.csv`
+- `inventory_recommendations.csv`
+- `product_forecast_performance.csv`
+- `store_forecast_performance.csv`
 
-* `demand_features.csv`
-* `waste_features.csv`
+These datasets support:
 
-These datasets will contain engineered features required for:
+- Historical demand prediction analysis
+- Actual versus predicted demand comparison
+- Forecast performance evaluation
+- Store-level and product-level performance analysis
+- Inventory and safety stock recommendations
 
-* Demand forecasting
-* Waste-risk prediction
-* Inventory optimization
+## 5. Dataset Overview
 
-Machine-learning datasets will be generated from validated and processed operational data.
+The final synthetic dataset represents a multi-store food service business operating across five stores.
 
----
+| Dataset | Records |
+|---|---:|
+| dim_date | 90 |
+| dim_store | 5 |
+| dim_product | 20 |
+| dim_customer | 1,000 |
+| dim_promotion | 8 |
+| dim_holiday | 8 |
+| dim_weather | 450 |
+| fact_sales | 122,318 |
+| fact_inventory | 9,000 |
+| fact_preparation | 9,000 |
+| fact_waste | 3,648 |
+| **Total** | **145,547** |
 
-## Data Generation Strategy
+### Dataset Period
 
-The SmartServe dataset is a realistic synthetic operational dataset designed to simulate a multi-store food service business.
+- Start date: January 1, 2025
+- End date: March 31, 2025
+- Duration: 90 days
 
-The data-generation process will model relationships between:
+## 6. Data Generation Strategy
+
+The SmartServe dataset is a realistic synthetic operational dataset designed to simulate the activities of a multi-store food service business.
+
+The data-generation process models relationships between:
 
 ```text
 Stores
@@ -99,54 +132,34 @@ Weather
      Waste
 ```
 
-The dataset will first be generated at a small prototype scale for validation.
+The generated datasets contain related operational records and dimensions to support integrated business analysis.
 
-### Prototype
+## 7. Data Quality
 
-* 5 stores
-* 20 products
-* 1,000 customers
-* 3 months of data
+Data quality was assessed through dedicated validation and preprocessing activities.
 
-After the business rules and relationships are validated, the dataset will be scaled to the final project size.
+The quality checks covered:
 
-### Final Dataset
+- Missing values
+- Duplicate records
+- Inconsistent categories
+- Invalid numeric values
+- Date consistency
+- Referential integrity
+- Business-rule validation
 
-* 15 stores
-* 80 products
-* Approximately 50,000 customers
-* 2022–2026 project period
+The duplicate-record validation identified zero duplicate rows, and the final business validation reported zero issues.
 
-The final row counts of the fact tables will depend on the realistic generation logic rather than an arbitrary target.
+Data-quality limitations identified during analysis are retained where necessary for consistency across the project's Python, SQL, and Power BI outputs.
 
----
+## 8. Important
 
-## Data Quality
-
-The raw dataset may contain controlled data-quality issues to simulate real-world operational data.
-
-Examples include:
-
-* Missing values
-* Duplicate records
-* Inconsistent text categories
-* Invalid numeric values
-* Date-format inconsistencies
-* Referential integrity issues
-* Business-rule violations
-
-These issues will be identified during the data-quality phase and addressed during preprocessing.
-
----
-
-## Important
-
-The raw, processed, and machine-learning datasets should be treated as different stages of the data pipeline.
+The raw, processed, and deployment datasets represent different stages of the project pipeline.
 
 ```text
 Raw Data
    ↓
-Validation
+Data Quality Assessment
    ↓
 Preprocessing
    ↓
@@ -154,7 +167,13 @@ Processed Data
    ↓
 Feature Engineering
    ↓
-ML Data
+Demand Forecasting
+   ↓
+Model Deployment
+   ↓
+Inventory Recommendations
+   ↓
+Business Intelligence
 ```
 
-This separation makes the project reproducible, auditable, and easier to maintain.
+This structure supports reproducibility, traceability, maintainability, and consistent analytical results across the SmartServe project.
